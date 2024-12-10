@@ -1,68 +1,86 @@
-import project1 from "../projects/project-1.jpg";
-import project2 from "../projects/project-2.jpg";
-import project3 from "../projects/project-3.jpg";
+import { link } from "motion/react-client";
+import project1 from "../projects/project-1.png";
+import project2 from "../projects/project-2.png";
+import project3 from "../projects/project-3.png";
+import project4 from "../projects/project-4.png";
+import project5 from "../projects/project-5.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = ` I have experience in building robust and scalable web applications. On the frontend, I work with React, while on the backend, I utilize technologies like Node.js and PHP. For database management, I have worked with PostgreSQL and MongoDB in various projects.
+
+My goal is to further enhance my skills and develop innovative projects and solutions. With my passion for technology and a commitment to continuous learning, I aim to create powerful software products through both individual efforts and collaborative teamwork. I see every new project as an opportunity to grow and move one step closer to excellence. 🚀`;
+export const ABOUT_TEXT = `Hello, my name is Sercan Turhan, and I am 24 years old. I graduated from the Computer Engineering Department of Ondokuz Mayıs University in July 2023. My passion for the software world began to take shape during my university years, and I aim to carry the knowledge and experience I gained during this time forward in my career.
+
+Currently, I am working as a Software Engineer at the Ministry of National Education since April 2024. With my interest in technology and problem-solving skills, I continue to develop innovative solutions in the field of software development.
+
+I am motivated by a desire to continuously improve myself, explore new technologies, and contribute to the software world. With my past experiences and future aspirations, I aim to enhance both my professional and personal growth. 😊`;
 
 
 export const EXPERIENCES = [
     {
-      year: "2023 - Present",
-      role: "Senior Full Stack Developer",
-      company: "Google Inc.",
-      description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-      technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-    },
-    {
-      year: "2022 - 2023",
-      role: "Frontend Developer",
-      company: "Adobe",
-      description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-      technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-    },
-    {
-      year: "2021 - 2022",
-      role: "Full Stack Developer",
-      company: "Facebook",
-      description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-      technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-    },
-    {
-      year: "2020 - 2021",
+      year: "2024 - Present",
       role: "Software Engineer",
-      company: "Paypal",
-      description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-      technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+      company: "Ministry of National Education",
+      description: `As a Junior Software Engineer, I develop full-stack web applications, utilizing the PHP Symfony framework for various projects. I primarily work with PostgreSQL as the database solution, ensuring efficient and scalable data management.
+
+During this time, I have also gained hands-on experience with Docker, enhancing my skills in containerization and deployment processes. This role has allowed me to grow technically while contributing to diverse and impactful projects.`,
+      technologies: ["Javascript", "Php", "PostgreSQL", "Docker"],
     },
+    {
+      year: "2022",
+      role: "Frontend Developer",
+      company: "Tiga Technology",
+      description: `I completed an internship as a Frontend Developer at Tiga Technology, where I focused on developing user interfaces using HTML, CSS, and React. During this time, I worked on creating responsive and visually appealing web designs, ensuring a seamless user experience.
+
+Additionally, I gained experience working with REST APIs, integrating frontend applications with backend systems to deliver dynamic and interactive features. This internship provided me with valuable insights into frontend development practices and strengthened my skills in building efficient web interfaces.`,
+      technologies: ["HTML", "CSS","Javascript", "React" ],
+    }
   ];
 
   export const PROJECTS = [
     {
-      title: "E-Commerce Website",
+      title: "Hotel Management Dashboard ",
+      link: "https://sercanturhan-react-hotelmanagement.netlify.app",
       image: project1,
       description:
-        "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-      technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+        "This project is a hotel management dashboard application built with React. It provides a user-friendly interface for managing hotel operations, utilizing modern technologies like React Query, React Router DOM, useForm, and Supabase for the backend.",
+      technologies: ["React", "React Query", "React Router DOM", "Supabase"],
     },
     {
-      title: "Task Management App",
+      title: "Pizza App 🍕",
+      link: "https://sercanturhan-react-pizzaap.netlify.app",
       image: project2,
       description:
-        "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-      technologies: ["HTML", "CSS", "Angular", "Firebase"],
+        "This is a pizza ordering app built using React and Redux. Users can browse a menu of pizzas and add them to their cart. The cart management is handled with Redux, and the app is styled using Tailwind CSS.",
+      technologies: ["React", "Redux", "Tailwind CSS"],
     },
     {
-      title: "Portfolio Website",
+      title: "Hotel Reservation Website",
+      link: "https://sercanturhan-nextjs-website.vercel.app/",
       image: project3,
       description:
-        "A personal portfolio website showcasing projects, skills, and contact information.",
-      technologies: ["HTML", "CSS", "React", "Bootstrap"],
+        "This project is a hotel reservation web application built using Next.js. Users can view available rooms, make reservations, and sign in using Google Authentication. The design is implemented using Tailwind CSS for a responsive and modern UI.",
+      technologies: ["React", "Next.js", "Tailwind CSS", "Google Authentication"],
+    },
+    {
+      title: "CSS Animations with Sass",
+      link: "https://sercanturhan-css-animations.netlify.app",
+      image: project4,
+      description:
+        "This project showcases various CSS animations created using Sass to enhance the maintainability and structure of the styles. The animations cover different visual effects and transitions, demonstrating the power of CSS combined with Sass for managing complex styles.",
+      technologies: ["HTML5", "Sass (SCSS),CSS Animations"],
+    },
+    {
+      title: "CSS Grid Project",
+      link: "https://sercanturhan-css-grid.netlify.app",
+      image: project5,
+      description:
+        "This project is a demonstration of layout design using CSS Grid and Sass. It showcases various grid-based layouts, offering responsive and visually appealing designs.",
+      technologies: ["HTML5", "Sass (SCSS), CSS Grid"],
     },
   ];
 
   export const CONTACT = {
-    address: "767 Fifth Avenue, New York, NY 10153 ",
-    phoneNo: "+12 4555 666 00 ",
-    email: "me@example.com",
+    address: "Çankaya, Ankara, Turkey",
+    phoneNo: "+90 545 747 8638 ",
+    email: "sercann.turhan@gmail.com",
   };

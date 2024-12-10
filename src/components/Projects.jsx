@@ -22,13 +22,16 @@ export default function Projects() {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
+              <a href={project.link} target="_blank">
               <img
-                className="mb-6 rounded"
+                className="mb-6 rounded hover:blur-sm transition-all duration-300"
                 src={project.image}
-                width={150}
+                width={300}
                 height={150}
                 alt={project.title}
               />
+              </a>
+              
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -36,7 +39,11 @@ export default function Projects() {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <h6 className="mb-2 font-semibold transition-transform duration-300 hover:-translate-y-1 hover:text-purple-500">
+                  {project.title}
+                </h6>
+              </a>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
