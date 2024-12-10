@@ -80,7 +80,7 @@ Additionally, I gained experience working with REST APIs, integrating frontend a
   ];
 
   export const CONTACT = {
-    address: "Çankaya, Ankara, Turkey",
+    address: "Ankara, Turkey",
     phoneNo: "+90 545 747 8638 ",
     email: "sercann.turhan@gmail.com",
   };
