@@ -39,7 +39,7 @@ export default function Hero() {
             className="my-2 max-w-xl py-6 font-light tracking-tighter">
                 {HERO_CONTENT}
             </motion.p>
-            {/* <motion.a
+            <motion.a
               href="/cv/SercanTurhan.pdf"
               download
               variants={container(1.5)}
@@ -48,7 +48,7 @@ export default function Hero() {
               className="mt-6 px-6 py-3 text-lg font-semibold text-white bg-purple-500 rounded-lg hover:bg-purple-600 transition-colors"
             >
               Download CV
-            </motion.a> */}
+            </motion.a>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
