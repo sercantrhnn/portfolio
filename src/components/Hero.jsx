@@ -40,7 +40,7 @@ export default function Hero() {
                 {HERO_CONTENT}
             </motion.p>
             <motion.a
-              href="/cv/SercanTurhan.pdf"
+              href="/cv/Sercan_TURHAN_CV.pdf"
               download
               variants={container(1.5)}
               initial="hidden"
