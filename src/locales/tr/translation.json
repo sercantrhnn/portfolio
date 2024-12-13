@@ -1,0 +1,72 @@
+{
+  "HERO_NAME": "Sercan Turhan",
+  "HERO_TITLE": "Yazılım Mühendisi",
+  "HERO_DOWNLOAD_CV": "CV İndir",
+  "HERO_IMAGE_ALT": "Sercan Turhan",
+  "HERO_CONTENT": "Güçlü ve ölçeklenebilir web uygulamaları geliştirme konusunda deneyimliyim. Frontend tarafında React ile çalışıyorum, backend tarafında ise Node.js ve PHP gibi teknolojiler kullanıyorum. Veri tabanı yönetimi için çeşitli projelerde PostgreSQL ve MongoDB ile çalıştım. Amacım, yeteneklerimi daha da geliştirmek ve yenilikçi projeler ve çözümler üretmektir. Teknolojiye olan tutkum ve sürekli öğrenme isteğimle bireysel çabalar ve iş birliğiyle güçlü yazılım ürünleri oluşturmayı hedefliyorum. Her yeni projeyi büyüme ve mükemmelliğe bir adım daha yaklaşma fırsatı olarak görüyorum.",
+  "ABOUT_TITLE": "Hakkımda",
+  "ABOUT_SUBTITLE": "",
+  "ABOUT_TEXT": "Merhaba, benim adım Sercan Turhan ve 24 yaşındayım. Temmuz 2023'te Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nden mezun oldum. Yazılım dünyasına olan tutkum üniversite yıllarımda şekillenmeye başladı ve bu süre zarfında kazandığım bilgi ve deneyimi kariyerimde ileriye taşımayı hedefliyorum. Şu anda Nisan 2024'ten beri Milli Eğitim Bakanlığı'nda Yazılım Mühendisi olarak çalışıyorum. Teknolojiye olan ilgim ve problem çözme becerilerimle yazılım geliştirme alanında yenilikçi çözümler üretmeye devam ediyorum. Kendimi sürekli geliştirme, yeni teknolojileri keşfetme ve yazılım dünyasına katkıda bulunma isteğiyle motive oluyorum. Geçmiş deneyimlerim ve gelecekteki hedeflerimle hem profesyonel hem de kişisel gelişimimi artırmayı amaçlıyorum.",
+  "EXPERIENCE_TITLE": "Deneyimler",
+  "TECHNOLOGIES": "Teknolojiler",
+  "EXPERIENCES": [
+    {
+      "year": "2024 - Günümüz",
+      "role": "Yazılım Mühendisi",
+      "company": "Milli Eğitim Bakanlığı",
+      "description": "Junior Yazılım Mühendisi olarak, çeşitli projelerde PHP Symfony çerçevesini kullanarak full-stack web uygulamaları geliştiriyorum. Veritabanı çözümü olarak ağırlıklı olarak PostgreSQL ile çalışıyor ve verimli ve ölçeklenebilir veri yönetimi sağlıyorum. Bu süre zarfında, konteynerizasyon ve dağıtım süreçlerinde becerilerimi geliştiren Docker ile pratik deneyim kazandım. Bu rol, teknik olarak büyümemi sağlarken çeşitli ve etkili projelere katkıda bulunmamı sağladı.",
+      "technologies": ["Javascript", "Php", "PostgreSQL", "Docker"]
+    },
+    {
+      "year": "2022",
+      "role": "Frontend Geliştirici",
+      "company": "Tiga Teknoloji",
+      "description": "Tiga Teknoloji'de Frontend Geliştirici olarak bir staj tamamladım ve HTML, CSS ve React kullanarak kullanıcı arayüzleri geliştirmeye odaklandım. Bu süre zarfında, kullanıcı deneyimini sorunsuz hale getiren duyarlı ve görsel olarak çekici web tasarımları oluşturdum. Ayrıca, dinamik ve etkileşimli özellikler sunmak için REST API'ler ile frontend uygulamalarını backend sistemleriyle entegre etme konusunda deneyim kazandım. Bu staj, frontend geliştirme uygulamaları hakkında değerli bilgiler edinmemi ve etkili web arayüzleri oluşturma becerilerimi güçlendirdi.",
+      "technologies": ["HTML", "CSS", "Javascript", "React"]
+    }
+  ],
+  
+  "PROJECTS": [
+    {
+      "title": "Otel Yönetim Admin Paneli",
+      "link": "https://sercanturhan-react-hotelmanagement.netlify.app",
+      "image": "/projects/project-1.png",
+      "description": "Bu proje, React ile geliştirilmiş bir otel yönetim panosu uygulamasıdır. Otel operasyonlarını yönetmek için kullanıcı dostu bir arayüz sağlar ve modern teknolojiler olan React Query, React Router DOM, useForm ve Supabase kullanır.",
+      "technologies": ["React", "React Query", "React Router DOM", "Supabase"]
+    },
+    {
+      "title": "Pizza Uygulaması 🍕",
+      "link": "https://sercanturhan-react-pizzaap.netlify.app",
+      "image": "/projects/project-2.png",
+      "description": "Bu proje, React ve Redux kullanılarak oluşturulmuş bir pizza sipariş uygulamasıdır. Kullanıcılar bir pizza menüsüne göz atabilir ve sepetlerine ekleyebilir. Sepet yönetimi Redux ile yapılır ve uygulama Tailwind CSS ile tasarlanmıştır.",
+      "technologies": ["React", "Redux", "Tailwind CSS"]
+    },
+    {
+      "title": "Otel Rezervasyon Web Sitesi",
+      "link": "https://sercanturhan-nextjs-website.vercel.app/",
+      "image": "/projects/project-3.png",
+      "description": "Bu proje, Next.js kullanılarak geliştirilmiş bir otel rezervasyon web uygulamasıdır. Kullanıcılar mevcut odaları görüntüleyebilir, rezervasyon yapabilir ve Google Kimlik Doğrulaması ile giriş yapabilir. Tasarım, modern ve duyarlı bir kullanıcı arayüzü için Tailwind CSS kullanılarak uygulanmıştır.",
+      "technologies": ["React", "Next.js", "Tailwind CSS", "Google Authentication"]
+    },
+    {
+      "title": "Sass ile CSS Animasyonları",
+      "link": "https://sercanturhan-css-animations.netlify.app",
+      "image": "/projects/project-4.png",
+      "description": "Bu proje, Sass kullanılarak oluşturulan çeşitli CSS animasyonlarını göstermektedir. Animasyonlar, farklı görsel efektler ve geçişleri kapsar ve karmaşık stillerin yönetimi için Sass ile CSS'in gücünü sergiler.",
+      "technologies": ["HTML5", "Sass (SCSS)", "CSS Animations"]
+    },
+    {
+      "title": "CSS Grid Projesi",
+      "link": "https://sercanturhan-css-grid.netlify.app",
+      "image": "/projects/project-5.png",
+      "description": "Bu proje, CSS Grid ve Sass kullanılarak düzen tasarımı yapılan bir demonstrasyondur. Çeşitli grid tabanlı düzenler sunar ve duyarlı ve görsel olarak çekici tasarımlar sağlar.",
+      "technologies": ["HTML5", "Sass (SCSS)", "CSS Grid"]
+    }
+  ],
+  "CONTACT_TITLE": "İletişime Geçin",
+  "CONTACT": {
+    "address": "Ankara, Türkiye",
+    "phoneNo": "+90 545 747 8638",
+    "email": "sercann.turhan@gmail.com"
+  }
+}

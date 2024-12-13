@@ -1,8 +1,10 @@
 import React from "react";
-import { EXPERIENCES } from "../assets/constants";
 import { motion } from "motion/react";
+import { useTranslation } from "react-i18next";
 
 export default function Experience() {
+  const { t } = useTranslation();
+  const experiences = t("EXPERIENCES", { returnObjects: true });
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h2
@@ -11,10 +13,10 @@ export default function Experience() {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        Experience
+        {t("EXPERIENCE_TITLE", { defaultValue: "Experience" })}
       </motion.h2>
       <div>
-        {EXPERIENCES.map((experience, index) => (
+        {experiences.map((experience, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
